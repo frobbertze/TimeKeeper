@@ -216,6 +216,12 @@
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\index.d.ts" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TimekeeperService\TimekeeperService.csproj">
+      <Project>{82755427-f307-4bb8-bfb3-505acbbaa55a}</Project>
+      <Name>TimekeeperService</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
