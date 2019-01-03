@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimekeeperWeb", "Timekeeper
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimekeeperService", "TimekeeperService\TimekeeperService.csproj", "{82755427-F307-4BB8-BFB3-505ACBBAA55A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{1D04E6D5-C6B2-48D9-87CD-93FE85D3A7C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{82755427-F307-4BB8-BFB3-505ACBBAA55A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82755427-F307-4BB8-BFB3-505ACBBAA55A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82755427-F307-4BB8-BFB3-505ACBBAA55A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D04E6D5-C6B2-48D9-87CD-93FE85D3A7C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D04E6D5-C6B2-48D9-87CD-93FE85D3A7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D04E6D5-C6B2-48D9-87CD-93FE85D3A7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D04E6D5-C6B2-48D9-87CD-93FE85D3A7C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
